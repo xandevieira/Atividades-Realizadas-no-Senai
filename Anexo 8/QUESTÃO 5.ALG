@@ -1,11 +1,11 @@
-Algoritmo "QUESTÃO 5"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "QUESTÃƒO 5"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 24/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    primeiroValor : inteiro
    segundoValor : inteiro
    soma : inteiro
@@ -15,16 +15,16 @@ Var
    operacao : caractere
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-   escreval ("Digite qual operação deseja realizar entre as seguintes :")
-   escreval ("(* = Multiplicação, / = Divisão, + = Soma, - = Subtração)")
+   escreval ("Digite qual operaÃ§Ã£o deseja realizar entre as seguintes :")
+   escreval ("(* = MultiplicaÃ§Ã£o, / = DivisÃ£o, + = Soma, - = SubtraÃ§Ã£o)")
    escreva ("= ")
    leia (operacao)
 
    limpatela
 
-   // Pedindo valores ao usuário.
+   // Pedindo valores ao usuÃ¡rio.
 
    escreva ("Digite o primeiro valor: ")
    leia (primeiroValor)
@@ -45,23 +45,23 @@ Inicio
    divisao <- primeiroValor / segundoValor
    subtracao <- primeiroValor - segundoValor
 
-   // Exibindo ao usuário os resultados
+   // Exibindo ao usuÃ¡rio os resultados
 
    escreval ("Primeiro Valor: ", primeiroValor)
    escreval ("Segundo Valor: ", segundoValor)
 
 
    se (operacao = "+") ou (operacao = "Soma") entao
-      escreval ("O resultado é: ", soma)
+      escreval ("O resultado Ã©: ", soma)
    senao
-      se (operacao = "-") ou (operacao = "Subtração") entao
-         escreval ("O resultado é: ", subtracao)
+      se (operacao = "-") ou (operacao = "SubtraÃ§Ã£o") entao
+         escreval ("O resultado Ã©: ", subtracao)
       senao
          se(operacao = "*") ou (operacao = "Multiplicacao") entao
-            escreval ("O resultado é: ", multiplicacao :2:2)
+            escreval ("O resultado Ã©: ", multiplicacao :2:2)
          senao
-            se (operacao = "/") ou (operacao = "Divisão") entao
-               escreval ("O resultado é: ", Divisão :2:2)
+            se (operacao = "/") ou (operacao = "DivisÃ£o") entao
+               escreval ("O resultado Ã©: ", DivisÃ£o :2:2)
             fimse
          fimse
       fimse
