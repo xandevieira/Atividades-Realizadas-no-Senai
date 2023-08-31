@@ -22,6 +22,9 @@ Inicio
    escreva("Digite o valor do segundo número: ")
    leia (b)
 
+   escreva("Digite o valor do segundo número: ")
+   leia (c)
+
    limpatela
    
    // Definindo calculos
