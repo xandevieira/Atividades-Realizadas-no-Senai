@@ -1,29 +1,26 @@
-Algoritmo "QUESTÃO 1"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "QUESTÃƒO 1"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 30/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    a : inteiro
    b : inteiro
    c : inteiro
    soma : inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-   // Pedindo dados ao usuário.
+   // Pedindo dados ao usuÃ¡rio.
 
-   escreva("Digite o valor do primeiro número: ")
+   escreva("Digite o valor do primeiro nÃºmero: ")
    leia (a)
 
-   escreva("Digite o valor do segundo número: ")
+   escreva("Digite o valor do segundo nÃºmero: ")
    leia (b)
-
-   escreva("Digite o valor do terceiro número: ")
-   leia (c)
 
    limpatela
    
@@ -31,12 +28,12 @@ Inicio
 
    soma <- a + b
 
-   // Mostrando ao usuário o resultado na tela.
+   // Mostrando ao usuÃ¡rio o resultado na tela.
 
    se (soma < c)entao
-      escreval (soma, " é menor que", c)
+      escreval (soma, " Ã© menor que", c)
    senao
-      escreval (soma, " é maior que", c)
+      escreval (soma, " Ã© maior que", c)
    fimse
 
 Fimalgoritmo
