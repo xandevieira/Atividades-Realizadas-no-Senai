@@ -22,7 +22,7 @@ Inicio
    escreva("Digite o valor do segundo número: ")
    leia (b)
 
-   escreva("Digite o valor do segundo número: ")
+   escreva("Digite o valor do terceiro número: ")
    leia (c)
 
    limpatela
