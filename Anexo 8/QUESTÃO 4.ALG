@@ -1,22 +1,22 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 30/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    morangos, macas, calculoMorangos, calculoMacas, valorTotal : real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-      // Pedindo dados ao usuário.
+      // Pedindo dados ao usuÃ¡rio.
 
    escreva ("Digite a quantia de morangos em Kg: ")
    leia (morangos)
 
-   escreva ("Digite a quantia de maçãs em Kg: ")
+   escreva ("Digite a quantia de maÃ§Ã£s em Kg: ")
    leia (macas)
 
       // Definindo calculos
@@ -33,7 +33,7 @@ Inicio
       calculoMacas <- macas * 1.50
    fimse
 
-   // Mostrando ao usuário o resultado na tela.
+   // Mostrando ao usuÃ¡rio o resultado na tela.
    
    valorTotal <- calculoMorangos + calculoMacas
 
