@@ -1,15 +1,15 @@
-Algoritmo "QUESTÃO 2"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "QUESTÃƒO 2"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 30/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 temp : inteiro
 nome, sexo, estadoCivil : caractere
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    escreva ("Digite seu nome: ")
    leia (nome)
@@ -17,7 +17,7 @@ Inicio
    escreva ("Digite seu sexo(F ou M): ")
    leia (sexo)
 
-   escreva ("Digite seu Estado Cívil(em CAIXA ALTA): ")
+   escreva ("Digite seu Estado CÃ­vil(em CAIXA ALTA): ")
    leia (estadoCivil)
 
    se (sexo="F")e (estadoCivil="CASADA")entao
@@ -26,12 +26,12 @@ Inicio
       limpatela
       escreval ("Nome: ", nome)
       escreval ("Sexo: ", sexo)
-      escreval ("Estado Cívil: ", estadoCivil)
+      escreval ("Estado CÃ­vil: ", estadoCivil)
       escreval ("Tempo: ", temp, " anos")
    senao
       escreval ("Nome: ", nome)
       escreval ("Sexo: ", sexo)
-      escreval ("Estado Cívil: ", estadoCivil)
+      escreval ("Estado CÃ­vil: ", estadoCivil)
 
    fimse
 Fimalgoritmo
