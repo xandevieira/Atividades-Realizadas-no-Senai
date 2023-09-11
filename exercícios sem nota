@@ -1,0 +1,48 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 11/09/2023
+Var
+   // Seção de Declarações das variáveis
+   dia : inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+
+   escreval ("Dias da semana de 1 à 7 de Setembro")
+   escreval ("")
+   escreval ("01/09 | Domingo")
+   escreval ("02/09 | Segunda-feira")
+   escreval ("03/09 | Terça-feira")
+   escreval ("04/09 | Quarta-feira")
+   escreval ("05/09 | Quinta-feira")
+   escreval ("06/09 | Sexta-feira")
+   escreval ("07/09 | Sábado")
+   escreval ("")
+   escreval ("Digite um dia da semana de 1 à 7 :")
+   leia (dia)
+   escreval ("")
+
+   escolha dia
+   caso 1
+      escreval ("Final de semana.")
+   caso 2
+      escreval ("Dia útil.")
+   caso 3
+      escreval ("Dia útil.")
+   caso 4
+      escreval ("Dia útil.")
+   caso 5
+      escreval ("Dia útil.")
+   caso 6
+      escreval ("Dia útil.")
+   caso 7
+      escreval ("Final de semana.")
+   outrocaso
+      escreval ("OPÇÃO INVÁLIDA!")
+   fimescolha
+
+Fimalgoritmo
