@@ -23,7 +23,7 @@ Inicio
          escreval ("A nota informada é inválida.")
          escreval ("Digite novalmente.")
          escreval ("")
-         escreva ("Digite uma nota para o aluno: ")
+         escreva ("Digite", i, "º nota para o aluno: ")
          leia (nota)
       fimenquanto
 
@@ -37,7 +37,7 @@ Inicio
       se ((media >= 5) e (media < 7)) entao
          escreval ("Aluno de Recuperação")
       senao
-         escreval ("ALUNO REPORVADO")
+         escreval ("ALUNO REPROVADO")
       fimse
    fimse
 
