@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int numero[5];
+    int i;
+    int menor = __INT_MAX__;
+    int maior = 0;
+    
+    for(i = 0 ; i > 5; i++) {
+        printf ("Digite o %dº número: ", i + 1);
+        scanf("%d", &numero[i]);
+        
+        maior = numero[i] > maior ? numero[i] : maior;
+    
+     if (numero[i] < menor){
+        menor = numero[i];
+     }
+     for (i = 0; i < 5; i++) {
+        printf("Números: %d\n", numero[1]);
+     }
+     
+    }
+
+    printf("Maior: %d\n", maior);
+    printf("Menor: %d\n", menor);
+    
+    return 0;
+}
